@@ -152,9 +152,55 @@ body {
   color: #83c4ec;
   letter-spacing: 1.51px;
 }
+.header__subnav-list {
+  display: none;
+  min-width: 200px;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  padding: 20px 0px 0px 0px;
+}
+.header__subnav-link {
+  width: 130px;
+  color: #7d7c7c;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #83c4ec;
+  text-align: center;
+}
+.header li {
+  position: relative;
+}
 
 .logo {
   width: 100%;
+}
+
+.arrow {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 12px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid #fff;
+  border-right: 10px solid transparent;
+  border-left: 10px solid transparent;
+}
+.arrow.active {
+  transform: rotate(-180deg);
+}
+
+body.mouse .header__nav-list > li:hover .header__subnav-list {
+  display: block;
+}
+
+body.touch .header__subnav-list.open {
+  display: block;
+}
+
+body.touch .arrow {
+  display: block;
 }
 
 /*----BANNER----*/
