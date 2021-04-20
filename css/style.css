@@ -129,12 +129,12 @@ body {
   font-size: 22px;
   font-family: "Poiret One", cursive;
   font-weight: 700;
-  color: #b3d2ed;
+  color: #83c4ec;
   letter-spacing: 1.51px;
 }
 
 .logo {
-  width: 60%;
+  width: 100%;
 }
 
 /*----BANNER----*/
@@ -282,7 +282,7 @@ body {
 }
 .footer__logo {
   display: block;
-  width: 65%;
+  width: 75%;
   margin: 0 auto;
   text-align: center;
 }
@@ -298,13 +298,14 @@ body {
 .footer__title-text {
   display: block;
   margin-bottom: 15px;
+  color: #83c4ec;
   text-align: center;
 }
 .footer__address-text {
   display: block;
   margin-top: 10px;
   text-align: center;
-  color: #b3d2ed;
+  color: #83c4ec;
 }
 .footer__copyright {
   padding: 10px 0;
