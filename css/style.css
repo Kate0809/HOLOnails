@@ -403,14 +403,38 @@ body.touch .arrow {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 950px) {
+  .offers__content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .offers__text {
   width: 50%;
+}
+@media (max-width: 950px) {
+  .offers__text {
+    width: 95%;
+  }
 }
 .offers__info {
   width: 45%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+@media (max-width: 1200px) {
+  .offers__info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 950px) {
+  .offers__info {
+    width: 90%;
+  }
 }
 .offers__info-item {
   width: 49%;
@@ -421,21 +445,41 @@ body.touch .arrow {
 .offers__info-item:last-child {
   margin: 0 auto;
 }
+@media (max-width: 700px) {
+  .offers__info-item {
+    width: 90%;
+  }
+}
 .offers__img-container {
   width: 100%;
   height: 180px;
+}
+@media (max-width: 1200px) {
+  .offers__img-container {
+    height: 140px;
+  }
 }
 .offers__img {
   width: 100%;
 }
 .offers__info-link {
   display: block;
-  margin: 0 auto 10px;
+  margin: 0px auto 10px;
   text-align: center;
   font-size: 22px;
 }
 .offers__info-link:hover {
   color: #e09bd7;
+}
+@media (max-width: 950px) {
+  .offers__info-link {
+    margin: 60px auto 10px;
+  }
+}
+@media (max-width: 700px) {
+  .offers__info-link {
+    margin: 30px auto 10px;
+  }
 }
 .offers__info-text {
   display: block;
@@ -448,8 +492,23 @@ body.touch .arrow {
   display: flex;
   flex-wrap: wrap;
 }
+@media (max-width: 700px) {
+  .gallery__content {
+    justify-content: center;
+  }
+}
 .gallery__content-item {
   width: 20%;
+}
+@media (max-width: 950px) {
+  .gallery__content-item {
+    width: 25%;
+  }
+}
+@media (max-width: 700px) {
+  .gallery__content-item {
+    width: 32%;
+  }
 }
 .gallery__img {
   width: 100%;
@@ -463,10 +522,25 @@ body.touch .arrow {
   width: 70%;
   margin: 0 auto;
 }
+@media (max-width: 950px) {
+  .price__content {
+    width: 85%;
+  }
+}
+@media (max-width: 700px) {
+  .price__content {
+    width: 100%;
+  }
+}
 .price__card {
   padding: 10px 30px;
   margin-bottom: 15px;
   border: 1px solid #b3d2ed;
+}
+@media (max-width: 700px) {
+  .price__card {
+    padding: 10px 15px;
+  }
 }
 .price__card-title {
   margin-bottom: 30px;
@@ -484,6 +558,25 @@ body.touch .arrow {
 .price__card-item:last-child {
   margin-bottom: 0;
 }
+.price__card-price {
+  text-align: center;
+}
+@media (max-width: 700px) {
+  .price__card-price {
+    width: 18%;
+  }
+}
+@media (max-width: 950px) {
+  .price__card-position, .price__card-price {
+    font-size: 16px;
+  }
+}
+@media (max-width: 700px) {
+  .price__card-position, .price__card-price {
+    font-size: 14px;
+  }
+}
+
 /*----MANICURE----*/
 .about-manicure {
   padding: 135px 0;
