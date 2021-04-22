@@ -873,6 +873,11 @@ body .header__nav-list > li:hover .header__subnav-list {
   padding-top: 30px;
   border-top: 2px solid #e09bd7;
 }
+@media (max-width: 700px) {
+  .footer {
+    padding-top: 10px;
+  }
+}
 .footer__content {
   display: flex;
   justify-content: space-between;
