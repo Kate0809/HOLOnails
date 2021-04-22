@@ -167,7 +167,6 @@ body {
 }
 @media (max-width: 700px) {
   .section__text {
-    margin-bottom: 15px;
     font-size: 16px;
   }
 }
@@ -189,17 +188,44 @@ body {
   font-size: 35px;
   text-align: center;
 }
+@media (max-width: 950px) {
+  .section__subtitle {
+    margin-bottom: 35px;
+  }
+}
+@media (max-width: 700px) {
+  .section__subtitle {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+}
 .section__gallery {
   display: flex;
+  flex-wrap: wrap;
 }
 .section__gallery-item {
   width: 25%;
+}
+@media (max-width: 700px) {
+  .section__gallery-item {
+    width: 50%;
+  }
 }
 .section__img {
   width: 100%;
 }
 .section__item {
   margin-bottom: 90px;
+}
+@media (max-width: 950px) {
+  .section__item {
+    margin-bottom: 75px;
+  }
+}
+@media (max-width: 700px) {
+  .section__item {
+    margin-bottom: 55px;
+  }
 }
 .section__item:last-child {
   margin-bottom: 0;
@@ -582,8 +608,23 @@ body.touch .arrow {
   padding: 135px 0;
   background: url(../img/bg/bg5.png) center/cover no-repeat;
 }
+@media (max-width: 950px) {
+  .about-manicure {
+    padding: 100px 0;
+  }
+}
+@media (max-width: 700px) {
+  .about-manicure {
+    padding: 80px 0;
+  }
+}
 .about-manicure__content {
   width: 50%;
+}
+@media (max-width: 700px) {
+  .about-manicure__content {
+    width: 75%;
+  }
 }
 .about-manicure .container {
   display: flex;
@@ -596,17 +637,53 @@ body.touch .arrow {
   padding: 95px 0;
   background: url(../img/bg/bg4.png) center/cover no-repeat;
 }
+@media (max-width: 950px) {
+  .about-pedicure {
+    padding: 80px 0;
+    background: url(../img/bg/bg2.png) center/cover no-repeat;
+  }
+}
+@media (max-width: 700px) {
+  .about-pedicure {
+    padding: 60px 0;
+  }
+}
 .about-pedicure__content {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-between;
 }
+@media (max-width: 950px) {
+  .about-pedicure__content {
+    flex-direction: column;
+  }
+}
 .about-pedicure__info {
   width: 42%;
 }
+@media (max-width: 950px) {
+  .about-pedicure__info {
+    width: 90%;
+  }
+}
+@media (max-width: 700px) {
+  .about-pedicure__info {
+    width: 96%;
+  }
+}
 .about-pedicure__img {
   width: 40%;
+}
+@media (max-width: 950px) {
+  .about-pedicure__img {
+    width: 50%;
+  }
+}
+@media (max-width: 700px) {
+  .about-pedicure__img {
+    width: 70%;
+  }
 }
 
 /*----REGENERACJA----*/
@@ -614,12 +691,37 @@ body.touch .arrow {
   padding: 80px 0;
   background: url(../img/bg/bg.png) center/cover no-repeat;
 }
+@media (max-width: 950px) {
+  .about-regeneration {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 700px) {
+  .about-regeneration {
+    padding: 60px 0;
+  }
+}
 .about-regeneration__content {
   display: flex;
   justify-content: flex-end;
 }
+@media (max-width: 700px) {
+  .about-regeneration__content {
+    justify-content: center;
+  }
+}
 .about-regeneration__info {
   width: 65%;
+}
+@media (max-width: 950px) {
+  .about-regeneration__info {
+    width: 80%;
+  }
+}
+@media (max-width: 700px) {
+  .about-regeneration__info {
+    width: 98%;
+  }
 }
 .about-regeneration__img {
   display: block;
@@ -627,6 +729,16 @@ body.touch .arrow {
   margin: 0 auto 15px;
   text-align: center;
   border: 4px solid #fff;
+}
+@media (max-width: 950px) {
+  .about-regeneration__img {
+    width: 45%;
+  }
+}
+@media (max-width: 700px) {
+  .about-regeneration__img {
+    width: 75%;
+  }
 }
 
 .footer {
