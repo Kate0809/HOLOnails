@@ -441,22 +441,6 @@ body.touch .arrow {
 .banner__content {
   max-width: 770px;
   margin: 0 auto;
-  padding-left: 200px;
-}
-@media (max-width: 1200px) {
-  .banner__content {
-    padding-left: 180px;
-  }
-}
-@media (max-width: 950px) {
-  .banner__content {
-    padding-left: 160px;
-  }
-}
-@media (max-width: 700px) {
-  .banner__content {
-    padding-left: 140px;
-  }
 }
 .banner__title {
   margin-bottom: 55px;
@@ -473,6 +457,13 @@ body.touch .arrow {
   margin: 0 15px 17px;
   background-color: #e09bd7;
   border-radius: 50%;
+}
+@media (max-width: 500px) {
+  .banner__title::before, .banner__title::after {
+    width: 12px;
+    height: 12px;
+    margin: 0 9px 12px;
+  }
 }
 @media (max-width: 1200px) {
   .banner__title {
@@ -492,6 +483,12 @@ body.touch .arrow {
     margin-bottom: 40px;
   }
 }
+@media (max-width: 500px) {
+  .banner__title {
+    font-size: 45px;
+    margin-bottom: 35px;
+  }
+}
 .banner__subtitle {
   font-size: 30px;
   text-align: center;
@@ -508,7 +505,12 @@ body.touch .arrow {
 }
 @media (max-width: 700px) {
   .banner__subtitle {
-    font-size: 24px;
+    font-size: 22px;
+  }
+}
+@media (max-width: 500px) {
+  .banner__subtitle {
+    font-size: 16px;
   }
 }
 
