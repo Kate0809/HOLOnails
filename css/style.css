@@ -285,11 +285,11 @@ body {
   .header__nav-list li {
     position: relative;
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     text-align: center;
   }
   .header__nav-list li:nth-child(2).submenu-link {
-    margin-bottom: 170px;
+    margin-bottom: 150px;
   }
 }
 .header__nav-link {
@@ -312,10 +312,10 @@ body {
 @media (max-width: 950px) {
   .header__nav-link {
     display: block;
-    padding: 5px 0;
-    width: 135px;
+    padding: 3px 0;
+    width: 132px;
     margin: 0 auto;
-    font-size: 28px;
+    font-size: 26px;
     color: #fff;
     border: 4px solid #e09bd7;
   }
