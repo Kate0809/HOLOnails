@@ -291,6 +291,10 @@ body {
   color: #83c4ec;
   letter-spacing: 1.51px;
 }
+.header__nav-link:hover {
+  color: #e09bd7;
+  transition: all 0.6s;
+}
 @media (max-width: 1200px) {
   .header__nav-link {
     margin: 0 12px;
@@ -319,8 +323,13 @@ body {
   color: #7d7c7c;
   display: inline-block;
   padding: 5px 10px;
-  background-color: #83c4ec;
+  margin-bottom: 3px;
+  background-color: #e09bd7;
   text-align: center;
+}
+.header__subnav-link:hover {
+  background-color: #b3d2ed;
+  transition: all 0.5s;
 }
 
 .logo {
