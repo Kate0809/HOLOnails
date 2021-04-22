@@ -333,6 +333,7 @@ body {
 }
 @media (max-width: 950px) {
   .header__subnav-list {
+    display: block;
     opacity: 1;
     left: 50%;
     top: 20;
