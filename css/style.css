@@ -260,6 +260,11 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+@media (max-width: 950px) {
+  .header__content.container {
+    max-width: 95%;
+  }
+}
 .header__nav-list {
   display: flex;
   align-items: center;
