@@ -450,6 +450,7 @@ body .header__nav-list > li:hover .header__subnav-list {
 @media (max-width: 700px) {
   .banner {
     padding: 180px 0;
+    background: url(../img/bg/bg6.jpg) center/cover no-repeat;
   }
 }
 .banner__content {
@@ -745,6 +746,7 @@ body .header__nav-list > li:hover .header__subnav-list {
 @media (max-width: 700px) {
   .about-manicure {
     padding: 80px 0;
+    background: url(../img/bg/bg3.png) center/cover no-repeat;
   }
 }
 .about-manicure__content {
@@ -752,13 +754,18 @@ body .header__nav-list > li:hover .header__subnav-list {
 }
 @media (max-width: 700px) {
   .about-manicure__content {
-    width: 75%;
+    width: 85%;
   }
 }
 .about-manicure .container {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+@media (max-width: 700px) {
+  .about-manicure .container {
+    justify-content: center;
+  }
 }
 
 /*----PEDICURE----*/
